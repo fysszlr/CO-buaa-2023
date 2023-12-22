@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+f_counter instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .counter(counter)
+    );
+
+

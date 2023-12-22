@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+d_grf instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .pc(pc), 
+    .rs(rs), 
+    .rt(rt), 
+    .regDst(regDst), 
+    .regWd(regWd), 
+    .grf_rs(grf_rs), 
+    .grf_rt(grf_rt)
+    );
+
+

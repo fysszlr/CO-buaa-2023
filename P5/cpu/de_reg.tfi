@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+de_reg instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .halt(halt), 
+    .d_pc(d_pc), 
+    .d_instr(d_instr), 
+    .d_extImm(d_extImm), 
+    .d_grf_rs(d_grf_rs), 
+    .d_grf_rt(d_grf_rt), 
+    .e_pc(e_pc), 
+    .e_instr(e_instr), 
+    .e_extImm(e_extImm), 
+    .e_grf_rs(e_grf_rs), 
+    .e_grf_rt(e_grf_rt)
+    );
+
+

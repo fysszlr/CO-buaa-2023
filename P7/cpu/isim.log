@@ -1,0 +1,67 @@
+ISim log file
+Running: C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P7\cpu\mips_txt_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/fysszlr/Desktop/The_endless_source_of_evil_comes_from_the_whispers_of_hell/Second_year_up/CO/P7/cpu/mips_txt_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING:  For instance _cpu/d_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/e_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/m_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/w_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 8 <= 0000000c
+                  42@00003004: $ 9 <= 0000000c
+                  46@0000300c: *0000000c <= 0000000c
+                  70@00004180: $26 <= 00000002
+                  74@00004184: $26 <= 00001010
+                  78@00004188: $27 <= 0000007c
+                  82@0000418c: $26 <= 00000010
+                  98@0000419c: $26 <= 00003010
+                 106@000041a0: $26 <= 00003014
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING:  For instance _cpu/d_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/e_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/m_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/w_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 8 <= 0000000c
+                  42@00003004: $ 9 <= 0000000c
+                  46@0000300c: *0000000c <= 0000000c
+                  70@00004180: $26 <= 00003010
+                  78@00004184: $26 <= 00003014
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING:  For instance _cpu/d_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/e_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/m_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance _cpu/w_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  38@00003000: $ 8 <= 0000000c
+                  42@00003004: $ 9 <= 0000000c
+                  46@0000300c: *0000000c <= 0000000c
+                  70@00004180: $26 <= 00003010
+                  78@00004184: $26 <= 00003014
+The simulator has terminated in an unexpected manner.  Please review the ISim log (isim.log) for details.

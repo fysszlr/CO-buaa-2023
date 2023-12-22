@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+d_cmp instance_name (
+    .srcA(srcA), 
+    .srcB(srcB), 
+    .cmpOp(cmpOp), 
+    .branch(branch)
+    );
+
+

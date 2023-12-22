@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+d_ext instance_name (
+    .imm16(imm16), 
+    .imm26(imm26), 
+    .extOp(extOp), 
+    .pc(pc), 
+    .extImm(extImm)
+    );
+
+

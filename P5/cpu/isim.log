@@ -1,0 +1,21 @@
+ISim log file
+Running: C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P5\cpu\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/fysszlr/Desktop/The_endless_source_of_evil_comes_from_the_whispers_of_hell/Second_year_up/CO/P5/cpu/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING:  For instance uut/d_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance uut/e_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance uut/m_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+WARNING:  For instance uut/w_controller/, width 1 of formal port new_instr is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  13@00003000: $ 8 <= 0000000a
+                  13@00003004: *0000000a <= 0000000a

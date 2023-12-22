@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+sll instance_name (
+    .imm(imm), 
+    .sllOp(sllOp), 
+    .sllImm(sllImm)
+    );
+
+

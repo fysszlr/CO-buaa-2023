@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+em_reg instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .halt(halt), 
+    .e_pc(e_pc), 
+    .e_instr(e_instr), 
+    .e_extImm(e_extImm), 
+    .e_grf_rt(e_grf_rt), 
+    .e_aluResult(e_aluResult), 
+    .m_pc(m_pc), 
+    .m_instr(m_instr), 
+    .m_extImm(m_extImm), 
+    .m_grf_rt(m_grf_rt), 
+    .m_aluResult(m_aluResult)
+    );
+
+

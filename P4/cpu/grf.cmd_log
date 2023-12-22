@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj cpu -o C:/Users/fysszlr/Desktop/The_endless_source_of_evil_comes_from_the_whispers_of_hell/Second_year_up/CO/P4/cpu/grf.tfi -lib work C:/Users/fysszlr/Desktop/The_endless_source_of_evil_comes_from_the_whispers_of_hell/Second_year_up/CO/P4/cpu//grf.v -module grf -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+d_npc instance_name (
+    .f_pc(f_pc), 
+    .d_pc(d_pc), 
+    .nPcOp(nPcOp), 
+    .branch(branch), 
+    .extImm(extImm), 
+    .grf_rs(grf_rs), 
+    .nPc(nPc)
+    );
+
+

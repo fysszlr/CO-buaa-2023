@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+dm instance_name (
+    .a(a), 
+    .wdOp(wdOp), 
+    .wd(wd), 
+    .we(we), 
+    .clk(clk), 
+    .reset(reset), 
+    .rdw(rdw), 
+    .rdb(rdb)
+    );
+
+

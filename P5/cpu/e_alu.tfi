@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+e_alu instance_name (
+    .srcA(srcA), 
+    .srcB(srcB), 
+    .shamt(shamt), 
+    .aluOp(aluOp), 
+    .aluResult(aluResult)
+    );
+
+

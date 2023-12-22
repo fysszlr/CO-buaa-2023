@@ -1,0 +1,40 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    00:10:45 11/09/2023 
+// Design Name: 
+// Module Name:    d_ifu 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+`default_nettype none
+module f_ifu(
+    input wire clk,
+	 input wire reset,
+	 input wire halt,
+    input wire [31:0] nPc,
+    output reg [31:0] pc,
+    output wire [31:0] instr
+    );
+	reg [31:0] rom [0:4095];
+	initial begin
+		$readmemh("code.txt",rom);
+	end  
+	always @(posedge clk) begin
+		if (reset) pc <= 32'h00003000;
+		else if(!halt) pc <= nPc;
+	end
+	assign instr = rom[(pc - 32'h00003000) >> 2];
+
+endmodule

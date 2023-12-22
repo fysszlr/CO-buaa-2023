@@ -1,0 +1,73 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -nodebug -prj mips.prj -o mips.exe mips_auto_txt 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "controller.v" into library work
+Analyzing Verilog file "controller_tb.v" into library work
+Analyzing Verilog file "def.v" into library work
+Analyzing Verilog file "de_reg.v" into library work
+Analyzing Verilog file "d_cmp.v" into library work
+Analyzing Verilog file "d_ext.v" into library work
+Analyzing Verilog file "d_grf.v" into library work
+Analyzing Verilog file "d_npc.v" into library work
+Analyzing Verilog file "em_reg.v" into library work
+Analyzing Verilog file "e_alu.v" into library work
+Analyzing Verilog file "e_alu_tb.v" into library work
+Analyzing Verilog file "e_mdu.v" into library work
+Analyzing Verilog file "e_mdu_tb.v" into library work
+Analyzing Verilog file "fd_reg.v" into library work
+Analyzing Verilog file "f_ifu.v" into library work
+Analyzing Verilog file "mips.v" into library work
+Analyzing Verilog file "mips_auto_txt.v" into library work
+Analyzing Verilog file "mips_bredge_tb.v" into library work
+Analyzing Verilog file "mips_bridge.v" into library work
+Analyzing Verilog file "mips_cpu.v" into library work
+Analyzing Verilog file "mips_tb.v" into library work
+Analyzing Verilog file "mw_reg.v" into library work
+Analyzing Verilog file "m_cp0.v" into library work
+Analyzing Verilog file "m_cp0_tb.v" into library work
+Analyzing Verilog file "m_dm.v" into library work
+Analyzing Verilog file "m_dm_tb.v" into library work
+Analyzing Verilog file "P7_standard_timer_2019.v" into library work
+Analyzing Verilog file "stall.v" into library work
+Analyzing Verilog file "stall_tb.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "mips_cpu.v" Line 144: Port tuse_rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "mips_cpu.v" Line 265: Port tuse_rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "mips_cpu.v" Line 359: Port tuse_rs is not connected to this instance
+WARNING:HDLCompiler:1016 - "mips_cpu.v" Line 445: Port tuse_rs is not connected to this instance
+WARNING:HDLCompiler:189 - "mips_cpu.v" Line 146: Size mismatch in connection of port <new_instr>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "mips_cpu.v" Line 267: Size mismatch in connection of port <new_instr>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "mips_cpu.v" Line 361: Size mismatch in connection of port <new_instr>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "mips_cpu.v" Line 447: Size mismatch in connection of port <new_instr>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1016 - "stall.v" Line 35: Port new_instr is not connected to this instance
+WARNING:HDLCompiler:1016 - "stall.v" Line 56: Port new_instr is not connected to this instance
+WARNING:HDLCompiler:1016 - "stall.v" Line 75: Port new_instr is not connected to this instance
+Completed static elaboration
+Compiling module controller
+Compiling module stall
+Compiling module f_ifu
+Compiling module fd_reg
+Compiling module d_grf
+Compiling module d_cmp
+Compiling module d_ext
+Compiling module d_npc
+Compiling module de_reg
+Compiling module e_alu
+Compiling module e_mdu
+Compiling module em_reg
+Compiling module m_dm
+Compiling module m_cp0
+Compiling module mw_reg
+Compiling module cpu
+Compiling module mips_bridge
+Compiling module TC
+Compiling module mips
+Compiling module mips_auto_txt
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 33732 KB
+Fuse CPU Usage: 171 ms

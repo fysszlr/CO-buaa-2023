@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+ext instance_name (
+    .imm(imm), 
+    .signImm(signImm), 
+    .zeroImm(zeroImm)
+    );
+
+

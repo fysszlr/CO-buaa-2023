@@ -1,0 +1,52 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -nodebug -prj mips.prj -o mips.exe generated_mips_test 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/controller.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/controller_tb.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/def.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/de_reg.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/d_cmp.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/d_ext.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/d_grf.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/d_npc.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/em_reg.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/e_alu.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/e_alu_tb.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/e_mdu.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/e_mdu_tb.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/fd_reg.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/f_ifu.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/generated_mips_test.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/mips.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/mips_tb.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/mw_reg.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/m_dm.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/m_dm_tb.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/stall.v" into library work
+Analyzing Verilog file "C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P6\cpu/stall_tb.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module controller
+Compiling module stall
+Compiling module f_ifu
+Compiling module fd_reg
+Compiling module d_grf
+Compiling module d_cmp
+Compiling module d_ext
+Compiling module d_npc
+Compiling module de_reg
+Compiling module e_alu
+Compiling module e_mdu
+Compiling module em_reg
+Compiling module m_dm
+Compiling module mw_reg
+Compiling module mips
+Compiling module generated_mips_test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 32900 KB
+Fuse CPU Usage: 218 ms

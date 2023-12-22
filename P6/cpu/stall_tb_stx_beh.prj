@@ -1,0 +1,4 @@
+verilog isim_temp "controller.v"
+verilog isim_temp "stall.v"
+verilog isim_temp "stall_tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

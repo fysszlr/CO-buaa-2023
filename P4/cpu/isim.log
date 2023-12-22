@@ -1,0 +1,49 @@
+ISim log file
+Running: C:\Users\fysszlr\Desktop\The_endless_source_of_evil_comes_from_the_whispers_of_hell\Second_year_up\CO\P4\cpu\mips_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/fysszlr/Desktop/The_endless_source_of_evil_comes_from_the_whispers_of_hell/Second_year_up/CO/P4/cpu/mips_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+@00003000: $ 4 <= 000007cf
+@00003004: $ 5 <= 000007ef
+@00003008: $ 6 <= 30390000
+@0000300c: $ 7 <= ffff0000
+@00003014: $ 7 <= ffffffff
+@00003018: $16 <= 00000fbe
+@0000301c: $17 <= fffffffe
+@00003020: $18 <= 00000fbd
+@00003028: $16 <= fffff812
+@0000302c: $17 <= 00000000
+@00003030: $18 <= fffff830
+@00003034: $19 <= fffff830
+@00003038: $ 8 <= 00000000
+@0000303c: *00000000 <= 000007cf
+@00003044: *00000004 <= 000007ef
+@00003048: *00000008 <= fffff812
+@0000304c: *0000000c <= 00000000
+@00003050: *00000010 <= fffff830
+@00003054: *00000014 <= 00000000
+@00003058: $ 9 <= 00000000
+@0000305c: $15 <= 000007cf
+@00003060: $14 <= 00000000
+@00003064: *00000018 <= 00000000
+@00003068: $13 <= 00000000
+@0000306c: $31 <= 00003070
+@00003088: $ 8 <= 000007cf
+@00003070: $ 8 <= 000007cf
+@00003074: $ 9 <= 00000001
+@00003078: $10 <= 00000002
+@00003080: $11 <= 04570000
+@00003084: $31 <= 00003088
+@00003090: $ 8 <= 045707cf
+@00003094: $10 <= 045707cf
+@000030a0: $ 2 <= 000b0000

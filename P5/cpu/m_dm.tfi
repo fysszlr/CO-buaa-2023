@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+m_dm instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .memWrite(memWrite), 
+    .memDst(memDst), 
+    .memWd(memWd), 
+    .memOp(memOp), 
+    .rd(rd)
+    );
+
+

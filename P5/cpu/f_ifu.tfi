@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+f_ifu instance_name (
+    .clk(clk), 
+    .pcWrite(pcWrite), 
+    .counter(counter), 
+    .halt(halt), 
+    .nPc(nPc), 
+    .pc(pc), 
+    .instr(instr)
+    );
+
+
